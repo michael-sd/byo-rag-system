@@ -1,4 +1,4 @@
-import openai
+from openai import OpenAI
 from dotenv import load_dotenv
 import os
 
@@ -16,8 +16,8 @@ class ChatOpenAI:
         if not isinstance(messages, list):
             raise ValueError("messages must be a list")
 
-        openai.api_key = self.openai_api_key
-        response = openai.ChatCompletion.create(
+        client = OpenAI()
+        response = client.chat.completions.create(
             model=self.model_name, messages=messages
         )
 
