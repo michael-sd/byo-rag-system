@@ -1,0 +1,48 @@
+{
+    "os": "macOS-14.2.1-arm64-arm-64bit",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-02-22T05:38:57.094567",
+    "startedAt": "2024-02-22T05:38:56.350284",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Python RAQA Example.ipynb",
+    "codePathLocal": null,
+    "git": {
+        "remote": "git@github.com:michael-sd/byo-rag-system.git",
+        "commit": "764538476e081e9551708598c846e1161ec8ccf8"
+    },
+    "email": "michaelsd.dev@gmail.com",
+    "root": "/Users/msd/Code/byo-rag-system",
+    "host": "Michaels-MBP",
+    "username": "msd",
+    "executable": "/opt/homebrew/Caskroom/miniforge/base/envs/llmops-course/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 3228,
+        "min": 600,
+        "max": 3228
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3228,
+            "min": 600,
+            "max": 3228
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 855.9008903503418
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}
